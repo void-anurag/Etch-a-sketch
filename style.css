@@ -1,7 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .reset-page{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .container{
@@ -13,6 +19,6 @@
 }
 
 .grid-box{
-    border: 0.5px solid black;
+    /*border: 0.1px solid black;*/
     background-color: #f8f8ff;
 }

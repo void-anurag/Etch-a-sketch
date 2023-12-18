@@ -27,22 +27,24 @@ const createGrid = (amtOfGrids) => {
             gridBox.style.width = `${widthAndHeight}px`;
             gridBox.style.height = `${widthAndHeight}px`;
             //adding mouseenter listener to change bg
+            /*
             gridBox.addEventListener('mouseenter', () => {
                 const currentOpacity = Number(gridBox.style.opacity);
                 gridBox.style.background = `rgb(0, 0, 0)`;
                     gridBox.style.opacity = Number(currentOpacity) + .10;
             })
+            */
             /*
             gridBox.addEventListener('mouseenter', () => {
                 gridBox.style.backgroundColor = 'black';
             })
             */
-            /*
+            
             gridBox.addEventListener('mouseenter', () => {
                 const bgColor = "rgb(" + r + "," + g + "," + b +  ")";
                 gridBox.style.background = bgColor;
             })
-            */
+            
             row.appendChild(gridBox);
         }
         
